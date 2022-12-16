@@ -1,0 +1,26 @@
+footer {
+  font-size: 1.1rem;
+  color: var(--Pale-Blue);
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+
+  margin-top: 3.4375rem;
+}
+
+footer a {
+  text-decoration: none;
+
+  background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  background-size: 100%;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+@media (min-width: 1200px) {
+  footer {
+    margin-top: 1.0rem;
+  }
+}

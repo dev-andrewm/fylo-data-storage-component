@@ -1,0 +1,45 @@
+.fylo-buttons-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5rem;
+
+  padding: 3.25rem 0 3.25rem 3.25rem;
+  width: calc(80% + 33.2rem);
+  max-width: 33.2rem;
+  box-sizing: border-box;
+  background-color: var(--Dark-Blue);
+
+  border-radius: 7px 85px 7px 7px;
+}
+
+.fylo-buttons-box img {
+  width: 41%;
+}
+
+.fylo-buttons-box ul {
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+
+  gap: 1.0rem;
+  list-style: none;
+}
+
+.fylo-buttons-box li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 4.8rem;
+  height: 4.8rem;
+
+  background-color: var(--Very-Dark-Blue);
+
+  border-radius: 25%;
+}
+
+.fylo-buttons-box li img {
+  width: 45%;
+  height: 45%;
+}

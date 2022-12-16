@@ -1,0 +1,126 @@
+.storage-info-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: var(--Dark-Blue);
+  border-radius: 5px;
+
+  width: calc(80% + 33.2rem);
+  max-width: 33.2rem;
+  box-sizing: border-box;
+
+  padding: 2.0rem 3.25rem 4.0rem;
+}
+
+.storage-info-box p {
+  margin-bottom: 2.0rem;
+  font-weight: 400;
+  text-align: center;
+  color: var(--Grayish-Blue);
+}
+
+mark {
+  font-weight: 700;
+  background-color: transparent;
+  color: var(--Pale-Blue);
+}
+
+.progress-bar__full {
+  position: relative;
+  width: 100%;
+  height: 1.2rem;
+
+  border-radius: 1.0rem;
+  background-color: var(--Very-Dark-Blue);
+}
+
+.progress-bar__full::after {
+  content: '';
+
+  position: absolute;
+
+  width: 81.5%;
+  height: 1.2rem;
+
+  border-radius: 1.0rem;
+  background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+
+.progress-bar__ball {
+  position: absolute;
+  width: 1.0rem;
+  height: 1.0rem;
+
+  border-radius: 50%;
+  background-color: white;
+
+  top: 46.5%;
+  right: 24.5%;
+}
+
+.storage-info__size__left {
+  box-sizing: border-box;
+  padding: 1.0rem;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--Grayish-Blue);
+
+  position: absolute;
+  top: calc(100% - 2.4375rem);
+  left: 30%;
+
+  width: 40%;
+  max-width: 13.28rem;
+
+  border-radius: 6px;
+  
+  background-color: white;
+}
+
+.storage-info__size__left span {
+  margin-right: 7px;
+  color: black;
+
+  vertical-align: middle;
+
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+@media (min-width: 1200px) {
+  .storage-info-box {
+    max-width: 45.0rem;
+    padding: 2.0rem 3.25rem;
+  }
+
+  .storage-info__size__left {
+    border-bottom-right-radius: 0;
+    top: calc(0% - 2.4375rem);
+    left: calc(100% - 3.25rem - 13.28rem);
+  }
+
+  .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+
+    border-top: 1.5rem solid white;
+    border-left: 1.5rem solid transparent;
+    border-right: 0 solid transparent;
+
+    top: calc(0% + 2.3375rem);
+    left: calc(100% - 3.25rem - 1.5rem);
+  }
+
+  .storage-info-box p {
+    text-align: start;
+  }
+
+  .progress-bar__ball {
+    top: 54%;
+    right: 23%;
+  }
+}

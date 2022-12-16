@@ -1,0 +1,7 @@
+.storage-info__range {
+  color: var(--Pale-Blue);
+  margin-top: 1.0rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
