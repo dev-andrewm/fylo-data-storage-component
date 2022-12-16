@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/dev-andrewm/testimonials-grid-section-main
-- Live Site URL: https://dev-andrewm.github.io/testimonials-grid-section-main/
+- Solution URL: https://github.com/dev-andrewm/fylo-data-storage-component
+- Live Site URL: https://dev-andrewm.github.io/fylo-data-storage-component/
 
 ## My process
 
